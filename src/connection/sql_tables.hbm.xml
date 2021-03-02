@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> 
+	<hibernate-mapping package="connection" >
+	<!-- 每一个类class对应一个表table、table必须包含主键 --> 
+	<class name="sql_tables" table="javasafe" >   
+		<id name="ID"  length="11" >    
+			
+			<!-- 排序方式？ -->
+			<generator class="native">        
+			</generator>   
+		</id>  
+		<!-- string 中的 s不能大写，如果使用大写：java.lang.String --> 
+		<property name="name"  type="string" length="30"></property>
+		<property name="password"  type="string"  ></property>
+		<property name="publickey"  type="string" ></property>
+		<property name="privatekey"  type="string" ></property>
+
+		
+	</class>
+	 
+</hibernate-mapping>

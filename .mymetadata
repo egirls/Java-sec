@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="javasafe"
+  id="myeclipse.1482378137025"
+  context-root="/javasafe"
+  j2ee-spec="5.0"
+  archive="javasafe.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
